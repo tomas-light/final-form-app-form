@@ -1,0 +1,46 @@
+{
+  "name": "final-form-app-form",
+  "version": "1.0.0",
+  "description": "utils for final form using",
+  "contributors": [
+    {
+      "name": "Artem Ignatev",
+      "email": "art.ser.ignatiev@gmail.com"
+    }
+  ],
+  "author": "TomasLight",
+  "license": "MIT",
+  "scripts": {
+    "prepublishOnly": "npm run lint",
+    "build": "tsc",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "final-form-set-errors-mutator": "D:\\Dev\\github\\final-form-set-errors-mutator"
+  },
+  "devDependencies": {
+    "@types/react": "16.9.43",
+    "@types/react-dom": "16.9.8",
+    "tslint": "6.1.2",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-eslint-rules": "5.4.0",
+    "tslint-react": "5.0.0",
+    "typescript": "3.9.7"
+  },
+  "peerDependencies": {
+    "final-form": "4.20.1",
+    "model-state-validation": "1.0.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-final-form": "6.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TomasLight/final-form-app-form.git"
+  }
+}
