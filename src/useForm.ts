@@ -8,7 +8,7 @@ import { Submit } from "./Submit";
 
 export function useForm<TModel>(
     submit: Submit<TModel>,
-    validator: IValidator<TModel> | IValidatorAsync<TModel>,
+    validator?: IValidator<TModel> | IValidatorAsync<TModel>,
     settings?: FormSettings
 ): [ ComponentType<IFormProps<TModel>>, () => void] {
 

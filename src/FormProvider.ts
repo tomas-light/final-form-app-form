@@ -69,7 +69,7 @@ export class FormProvider<TModel extends ModelConstraint = any> {
             this.formProps.validate = (values: any) => this.validateAsync(values);
         }
 
-        const FormContainer: ComponentType<IFormProps<TModel>> = compose(this.formProps.build)(Form);
+        const FormContainer: ComponentType<IFormProps<TModel>> = compose(this.formProps.build())(Form) as any;
         return FormContainer;
     }
 
