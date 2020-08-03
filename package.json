@@ -1,6 +1,6 @@
 {
   "name": "final-form-app-form",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "utils for final form using",
   "contributors": [
     {
@@ -34,7 +34,7 @@
   },
   "peerDependencies": {
     "final-form": "4.20.1",
-    "model-state-validation": "1.0.4",
+    "model-state-validation": "1.0.5",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-final-form": "6.5.0"
